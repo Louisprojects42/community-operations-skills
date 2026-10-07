@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "community-operations-skills",
+  "version": "0.1.0",
+  "description": "Build durable Discord workflows, review Supabase authorization, prepare public event reports, and compare game trading routes.",
+  "license": "MIT"
+}

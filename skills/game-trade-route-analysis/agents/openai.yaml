@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Trade Route Analysis"
+  short_description: "Game Trade Route Analysis workflow and practical checks"
+  default_prompt: "Use $game-trade-route-analysis to compare these in-game routes with explicit cargo and budget constraints."

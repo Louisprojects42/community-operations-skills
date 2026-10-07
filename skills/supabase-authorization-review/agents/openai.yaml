@@ -1,0 +1,4 @@
+interface:
+  display_name: "Supabase Authorization Review"
+  short_description: "Supabase Authorization Review workflow and practical checks"
+  default_prompt: "Use $supabase-authorization-review to review the authorization for this browser-to-database workflow."

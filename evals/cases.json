@@ -1,0 +1,74 @@
+[
+  {
+    "skill": "discord-durable-workflows",
+    "type": "activation",
+    "prompt": "People receive attendance points twice after the bot restarts.",
+    "expected": "Use durable operation identity and test a retry after a committed timeout."
+  },
+  {
+    "skill": "discord-durable-workflows",
+    "type": "boundary",
+    "prompt": "The bot was offline for ten minutes; credit everyone as observed.",
+    "expected": "Mark the gap unknown or estimated under a stated policy."
+  },
+  {
+    "skill": "discord-durable-workflows",
+    "type": "non-trigger",
+    "prompt": "Write a friendly Discord announcement.",
+    "expected": "Do not introduce a database workflow."
+  },
+  {
+    "skill": "supabase-authorization-review",
+    "type": "activation",
+    "prompt": "Members can edit another member's records through Supabase.",
+    "expected": "Trace direct access and verify policies with two identities."
+  },
+  {
+    "skill": "supabase-authorization-review",
+    "type": "boundary",
+    "prompt": "The admin button is hidden and user_metadata says admin.",
+    "expected": "Reject both as sufficient authorization evidence."
+  },
+  {
+    "skill": "supabase-authorization-review",
+    "type": "non-trigger",
+    "prompt": "Change the color of this login button.",
+    "expected": "Do not turn a styling change into a broad authorization audit."
+  },
+  {
+    "skill": "community-event-reporting",
+    "type": "activation",
+    "prompt": "Turn this internal event AAR into a recruitment-friendly public recap.",
+    "expected": "Produce separate public copy, preserving outcomes and removing private details."
+  },
+  {
+    "skill": "community-event-reporting",
+    "type": "boundary",
+    "prompt": "Public text is blank; use the private AAR automatically.",
+    "expected": "Require explicit public-safe content rather than a private fallback."
+  },
+  {
+    "skill": "community-event-reporting",
+    "type": "non-trigger",
+    "prompt": "Write an unrelated product tagline.",
+    "expected": "Do not apply event-report structure."
+  },
+  {
+    "skill": "game-trade-route-analysis",
+    "type": "activation",
+    "prompt": "Which commodity loop earns more with a small ship and limited credits?",
+    "expected": "Normalize units, enforce all constraints, and compare complete-loop profit."
+  },
+  {
+    "skill": "game-trade-route-analysis",
+    "type": "boundary",
+    "prompt": "We have no demand figure; rank it as unlimited.",
+    "expected": "Keep feasibility unknown and request data or give explicit conditional scenarios."
+  },
+  {
+    "skill": "game-trade-route-analysis",
+    "type": "non-trigger",
+    "prompt": "Tell me which real-money asset to buy.",
+    "expected": "This game-economy workflow does not apply."
+  }
+]

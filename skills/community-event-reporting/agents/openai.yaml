@@ -1,0 +1,4 @@
+interface:
+  display_name: "Community Event Reporting"
+  short_description: "Community Event Reporting workflow and practical checks"
+  default_prompt: "Use $community-event-reporting to prepare a factual public recap from these event notes."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Durable Discord Workflows"
+  short_description: "Durable Discord Workflows workflow and practical checks"
+  default_prompt: "Use $discord-durable-workflows to make this bot workflow survive duplicate events and restarts."

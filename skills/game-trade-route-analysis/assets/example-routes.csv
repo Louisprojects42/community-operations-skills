@@ -1,0 +1,4 @@
+route,buy_price,sell_price,capacity,stock,demand,budget,fixed_fee,sell_fee_rate,loop_minutes,as_of
+Example A,10,14,100,80,60,500,20,0.05,30,2026-01-01T12:00:00+00:00
+Example B,10,12,100,80,60,500,20,0,10,2026-01-01T12:00:00+00:00
+No stock,10,20,100,0,60,500,20,0,10,2026-01-01T12:00:00+00:00
